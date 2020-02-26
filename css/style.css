@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.entete {
+    background-image: url(../img/mur.vin.jpg);
+    height: 95vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+li {
+    color: rgb(237, 215, 134);
+    font-size: 26px;
+}
+
+p,
+a {
+    color: rgb(237, 215, 134);
+}
+
+.bande {
+    background-color: rgba(47, 44, 44, 0.8)
+}
+
+footer {
+    background-color: rgba(47, 44, 44, 1);
+}
+
+.icon,
+nav,
+.nav2 {
+    list-style-type: none;
+}
+
+.nav2 {
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(237, 215, 134);
+}
+
+span {
+    font-size: 12px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(237, 215, 134)
+}
+
+@keyframes test {
+    0% {
+        transform: scale(0.5)
+    }
+    25% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.test {
+    animation: test 2s forwards;
+}
+
+.carte {
+    text-decoration: underline;
+}
+
+.index {
+    text-decoration: underline;
+}
+
+.vin {
+    text-decoration: underline;
+}
